@@ -1,0 +1,38 @@
+body{
+background-color:white;
+font-family:"Time New Roman",Times,serif;
+font-size:12pt;
+color:#900000;/*Dark maroon for body text*/
+text-align:center;/*Keep paragraphs center-aligned*/
+}
+h1{
+font-size: 40pt;
+text-align:center; */Centers inside the h1 box*/
+}
+p{
+backround-color:white;
+font-family:"Times New Roman",Times,serif;
+font-size:15pt;
+}
+p.shrt{
+display:inline-block; /*Shrinks width to fit content*/
+backround-color:lightyellow;/*Optional highlight it*/
+width:600px; /*fixed width of container*/
+}
+p{
+backround-color:white;
+font-family:"Times New Roman",Times,serif;
+font-size:12pt;
+}
+<p class="shrt"
+p.shrt{
+display:inline-block; /*Shrinks width to fit content*/
+backround-color:lightyellow;/*Optional highlight it*/
+width:600px; /*fixed width of container*/
+padding: 5px 10px; /*optional spacing around text*/
+margin 10px 0; /*Vertical spacing*/
+text-align: center;
+}
+li {
+text-align:Left;
+}
